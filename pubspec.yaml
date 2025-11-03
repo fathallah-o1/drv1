@@ -1,0 +1,47 @@
+name: drv
+description: EVORANTA Driver (step 1/3)
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ إدارة الحالة والتخزين
+  get: ^4.6.6
+  get_storage: ^2.1.1
+
+  # ✅ خدمات الموقع (GPS)
+  geolocator: ^12.0.0
+
+  # ✅ HTTP للتواصل مع السيرفر
+  http: ^1.1.0
+
+  # ✅ فتح الروابط (مثل خرائط Google أو Apple)
+  url_launcher: ^6.3.0
+  
+  android_intent_plus: ^5.1.0
+  package_info_plus: ^8.0.0
+
+  # ✅ خدمة تتبع الموقع في الخلفية
+  flutter_background_service: ^5.0.5
+  flutter_background_service_android: ^6.2.2
+
+  # ✅ أيقونات iOS
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
